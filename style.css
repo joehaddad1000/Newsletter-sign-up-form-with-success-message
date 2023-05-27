@@ -11,14 +11,20 @@ body {
 }
 
 p {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .attribution {
-    font-size: 11px;
+    font-size: 1rem;
     text-align: center;
+    padding: .625rem 0;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+    transition: color 0.3s ease;
+}
+
+.attribution a:hover {
+    color: hsl(228, 34%, 66%);
 }
